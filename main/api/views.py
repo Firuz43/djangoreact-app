@@ -47,6 +47,10 @@ def getRoutes(request):
 # Get all Users
 
 
+def index(request):
+    return render(request, 'index.html')
+
+
 @api_view(['GET'])
 def getUsers(request):
     user = User.objects.all()

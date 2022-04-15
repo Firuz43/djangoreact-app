@@ -2,7 +2,8 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('', views.getRoutes, name="getroutes"),
+    path('', views.index, name="index"),
+    path('api/', views.getRoutes, name="getroutes"),
     path('users-list/', views.getUsers, name="users"),
     path('user/<str:pk>/', views.getUser, name="users"),
     path('create-user', views.createUser, name="create"),
