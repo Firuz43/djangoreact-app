@@ -10,3 +10,7 @@
   justify-content: space-between;
   text-decoration-style: none;
 }
+
+.nav-links li {
+  list-style-type: none;
+}
