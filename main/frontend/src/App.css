@@ -14,3 +14,9 @@
 .nav-links li {
   list-style-type: none;
 }
+
+.anchor {
+  display: flex;
+  width: 500px;
+  justify-content: space-around;
+}
